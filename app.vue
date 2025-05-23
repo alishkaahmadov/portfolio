@@ -3,5 +3,9 @@
     <AppHeader />
     <PersonalSummary />
     <AboutMe />
+    <WhatIDo />
+    <GetInTouch />
+    <WorkTogether />
+    <AppFooter />
   </div>
 </template>
