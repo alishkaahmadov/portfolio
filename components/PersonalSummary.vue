@@ -6,6 +6,6 @@
         <p class="text-center text-[#484E53] text-lg max-w-[800px] pb-4">
             As a dedicated full stack web developer with over 5 years of experience, I specialize in crafting scalable, user-focused web solutions from backend architecture to dynamic frontend interfaces.
         </p>
-        <BaseButton label="Contact Mee" textColor="text-[#484E53]" hoverColor="hover:text-[#4FC3F7]" />
+        <BaseButton label="Contact Me" textColor="text-[#484E53]" hoverColor="hover:text-[#4FC3F7]" />
     </div>
 </template>

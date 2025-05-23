@@ -4,6 +4,7 @@
     <PersonalSummary />
     <AboutMe />
     <WhatIDo />
+    <MyProjects />
     <GetInTouch />
     <WorkTogether />
     <AppFooter />

@@ -9,7 +9,7 @@
                   <h3 class="font-semibold text-base mt-3 mb-4 text-[#484E53]">{{ service.title }}</h3>
                   <p class="text-sm text-[#1C1E53]">{{ service.description }}</p>
                 </div>
-                <img v-if="service.secondImage" src="/images/ai_image.png" alt="secondImageAlt">
+                <img class="ml-3" v-if="service.secondImage" :src="baseUrl + service.secondImage" alt="AI">
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@ const services = [
     image: 'images/chatbot.png',
     imageAlt: 'chatbot',
     isLarge: true,
-    secondImage: 'ai_image.png',
+    secondImage: 'images/ai_image.png',
     secondImageAlt: 'AI',
   },
   {
