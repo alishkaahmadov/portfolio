@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme{
     /* Font Families */
@@ -8,3 +9,5 @@
     --font-poppins: 'Poppins', 'sans-serif';
     --font-inter: 'Inter', 'sans-serif';
 }
+
+
