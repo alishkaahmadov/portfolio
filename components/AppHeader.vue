@@ -20,7 +20,7 @@
         <button class="text-[#484e530] dark:text-white hover:text-[#4FC3F7] cursor-pointer border-2 rounded-lg px-4 py-1 dark:border-[#4FC3F7]">Contact</button>
         <div @click="toggleDark"> 
             <client-only>
-                <img v-if="imageSrc" class="cursor-pointer" :src="imageSrc">
+                <img v-if="imageSrc" class="cursor-pointer" :src="baseUrl + imageSrc">
             </client-only>
         </div>
     </div>
@@ -29,6 +29,9 @@
 <script setup>
 
 import { useTheme } from '~/composables/useTheme';
+
+const config = useRuntimeConfig();
+const baseUrl = config.app.baseURL;
 
 const { isDark, toggleDark } = useTheme();
 
