@@ -1,5 +1,5 @@
 <template>
-    <div class="font-inter flex flex-col justify-center items-center pb-40 px-30">
+    <div class="font-inter flex flex-col justify-center items-center pb-40 px-30 scroll-mt-24" id="whatIDo">
         <h1 class="font-bold text-4xl text-[#484E53] pb-1 dark:text-white">What I do</h1>
         <HighlightText label="My Services" />
         <div class="grid grid-cols-3 gap-6 max-w-[1200px] mt-4">
