@@ -21,7 +21,7 @@
             <input type="hidden" name="_next" value="https://alishkaahmadov.github.io/portfolio/thank-you" />
             <input type="hidden" name="_captcha" value="false" />
 
-            <button type="submit" class="font-semibold text-sm cursor-pointer w-full bg-[#484E53] dark:bg-white text-white dark:text-black px-4 py-3 rounded-md transition">
+            <button type="submit" class="font-semibold text-sm cursor-pointer w-full bg-[#484E53] dark:bg-white text-white dark:text-black px-4 py-3 rounded-md transition hover:bg-[#4FC3F7]">
                 Get In Touch
             </button>
         </form>
