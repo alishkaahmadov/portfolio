@@ -1,15 +1,15 @@
 <template>
-    <div class="font-inter flex flex-col justify-center items-center pb-40 px-30 scroll-mt-24" id="whatIDo">
-        <h1 class="font-bold text-4xl text-[#484E53] pb-1 dark:text-white">What I do</h1>
+    <div class="font-inter flex flex-col justify-center items-center pb-20 xl:pb-40 px-8 xl:px-30 scroll-mt-24" id="whatIDo">
+        <h1 class="font-bold text-xl xl:text-4xl text-[#484E53] pb-1 dark:text-white">What I do</h1>
         <HighlightText label="My Services" />
-        <div class="grid grid-cols-3 gap-6 max-w-[1200px] mt-4">
-            <div class="flex bg-[#ECF4FF] dark:bg-[#2B2B2B] p-6 rounded-lg" :class="service.isLarge ? 'col-span-2' : ''" v-for="service in services" :key="service.title">
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-0 xl:gap-6 max-w-[1200px] mt-4">
+            <div class="flex flex-col xl:flex-row bg-[#ECF4FF] dark:bg-[#2B2B2B] p-6 rounded-lg mb-8 xl:mb-0" :class="service.isLarge ? 'xl:col-span-2' : ''" v-for="service in services" :key="service.title">
                 <div>
                   <img class="w-10 h-10 rounded-lg" :src="baseUrl + service.image" :alt="service.imageAlt">
-                  <h3 class="font-semibold text-base mt-3 mb-4 text-[#484E53] dark:text-white">{{ service.title }}</h3>
-                  <p class="text-sm text-[#1C1E53] dark:text-[#E1E1E1]">{{ service.description }}</p>
+                  <h3 class="font-semibold text-sm md:text-base mt-3 mb-4 text-[#484E53] dark:text-white">{{ service.title }}</h3>
+                  <p class="text-xs md:text-sm text-[#1C1E53] dark:text-[#E1E1E1]">{{ service.description }}</p>
                 </div>
-                <img class="ml-3" v-if="service.secondImage" :src="baseUrl + service.secondImage" alt="AI">
+                <img class="xl:ml-3 mt-3 xl:mt-0" v-if="service.secondImage" :src="baseUrl + service.secondImage" alt="AI">
             </div>
         </div>
     </div>

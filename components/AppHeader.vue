@@ -1,8 +1,8 @@
 <template>
-    <div class="font-montserrat text-lg flex justify-between items-center py-6 px-30 sticky top-0 z-50 bg-[#E0E8F6] dark:bg-[#1A1A1A] shadow-md">
-        <span class="font-oleo text-2xl italic text-primary dark:text-white">Alishka</span>
+    <div class="font-montserrat text-lg flex justify-between items-center py-6 px-8 xl:px-30 sticky top-0 z-50 bg-[#E0E8F6] dark:bg-[#1A1A1A] shadow-md">
+        <span class="font-oleo text-lg md:text-2xl italic text-primary dark:text-white">Alishka</span>
         <nav>
-            <ul class="flex text-[#050505] dark:text-[#C1C1C1]">
+            <ul class="hidden xl:flex text-[#050505] dark:text-[#C1C1C1]">
                 <li class="mx-12 hover:text-[#4FC3F7] transition">
                     <a href="#home" @click.prevent="scrollToSection('home')" class="cursor-pointer">Home</a>
                 </li>
@@ -17,7 +17,7 @@
                 </li>
             </ul>
         </nav>
-        <a href="#contact" @click.prevent="scrollToSection('contact')" class="text-[#484e530] dark:text-white hover:text-[#4FC3F7] cursor-pointer border-2 rounded-lg px-4 py-1 dark:border-[#4FC3F7]">Contact</a>
+        <a href="#contact" @click.prevent="scrollToSection('contact')" class="hidden xl:block text-[#484e530] dark:text-white hover:text-[#4FC3F7] cursor-pointer border-2 rounded-lg px-4 py-1 dark:border-[#4FC3F7]">Contact</a>
         <div @click="toggleDark"> 
             <client-only>
                 <img v-if="imageSrc" class="cursor-pointer hover:scale-125 transition" :src="baseUrl + imageSrc">

@@ -1,6 +1,6 @@
 <template>
-    <div class="font-inter flex justify-between items-center py-10 px-30 text-[#282938] border-t">
-       <span class="dark:text-[#A9A9A9]">© 2025 All rights reserved.</span>
+    <div class="font-inter flex flex-col xl:flex-row justify-between items-center py-10 px-8 xl:px-30 text-[#282938] border-t">
+       <span class="dark:text-[#A9A9A9] mb-6 xl:mb-0">© 2025 All rights reserved.</span>
        <div class="flex">
             <a class="mr-4" href="https://github.com/alishkaahmadov" target="_blank" aria-label="GitHub">
                 <FontAwesomeIcon icon="fa-brands fa-github" class="

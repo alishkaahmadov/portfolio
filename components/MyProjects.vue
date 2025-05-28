@@ -1,12 +1,12 @@
 <template>
-    <div class="font-inter flex flex-col justify-center items-center pb-40 px-30 scroll-mt-24" id="projects">
-        <h1 class="font-bold text-4xl text-[#484E53] pb-1 dark:text-white">Projects</h1>
+    <div class="font-inter flex flex-col justify-center items-center pb-20 xl:pb-40 px-8 xl:px-30 scroll-mt-24" id="projects">
+        <h1 class="font-bold text-xl xl:text-4xl text-[#484E53] pb-1 dark:text-white">Projects</h1>
         <HighlightText label="Some of my Work" />
-        <div class="grid grid-cols-3 gap-6 max-w-[1200px] mt-4">
-            <div class="w-[350px]" v-for="project in projects" :key="project.name">
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-0 xl:gap-6 max-w-[1200px] mt-4">
+            <div class="w-full xl:w-[350px] mb-8 xl:mb-0 " v-for="project in projects" :key="project.name">
               <img :src="baseUrl + project.image" :alt="project.name" class="min-h-[190px]">
-              <a :href="project.link || '#'" target="_blank" @click="!project.link && $event.preventDefault()" class="inline-block text-lg font-bold my-2 dark:text-[#C1C1C1]">{{ project.name }}</a>
-              <p class="text-sm dark:text-[#A9A9A9]">{{ project.description }}</p>
+              <a :href="project.link || '#'" target="_blank" @click="!project.link && $event.preventDefault()" class="inline-block text-base md:text-lg font-bold my-2 dark:text-[#C1C1C1]">{{ project.name }}</a>
+              <p class="text-xs md:text-sm dark:text-[#A9A9A9]">{{ project.description }}</p>
             </div>
         </div>
     </div>

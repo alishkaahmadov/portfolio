@@ -12,11 +12,11 @@
 defineProps({
     label: {
         type: String,
-        defaulth: 'Contact Me'
+        default: 'Contact Me'
     },
     fontSize: {
         type: String,
-        defaulth: 'text-sm'
+        default: 'text-xs xl:text-sm '
     }
 })
 
