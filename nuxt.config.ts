@@ -2,9 +2,7 @@
 
 import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/google-fonts',
-  ],
+  modules: ['@nuxtjs/google-fonts', '@nuxt/image'],
   googleFonts: {
     families: {
       'Oleo+Script': [700],
