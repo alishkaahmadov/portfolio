@@ -57,6 +57,7 @@
             v-if="imageSrc"
             class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
             :src="baseUrl + imageSrc"
+            alt="Dark Mode"
           />
         </client-only>
       </div>
