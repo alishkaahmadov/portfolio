@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-poppins mb-20 xl:mb-40 px-8 xl:px-30 scroll-mt-24"
+    class="font-inter mb-20 xl:mb-40 px-8 xl:px-30 scroll-mt-24"
     id="home"
     ref="hero"
   >

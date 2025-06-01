@@ -1,7 +1,7 @@
 <template>
   <div
     ref="header"
-    class="font-montserrat text-lg flex justify-between items-center py-6 px-8 xl:px-30 sticky top-0 z-50 bg-[#E0E8F6] dark:bg-[#1A1A1A] shadow-md"
+    class="font-inter text-lg flex justify-between items-center py-6 px-8 xl:px-30 sticky top-0 z-50 bg-[#E0E8F6] dark:bg-[#1A1A1A] shadow-md"
   >
     <span
       class="font-oleo text-lg md:text-2xl italic text-primary dark:text-white"
