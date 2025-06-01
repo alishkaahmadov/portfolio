@@ -25,6 +25,7 @@
             class="w-10 h-10 rounded-lg"
             :src="service.image"
             :alt="service.imageAlt"
+            format="webp"
           />
           <h3
             class="font-semibold text-sm md:text-base mt-3 mb-4 text-[#484E53] dark:text-white"

@@ -51,15 +51,13 @@
     >
     <div class="flex items-center">
       <div @click="toggleDark">
-        <client-only>
-          <img
-            loading="lazy"
-            v-if="imageSrc"
-            class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
-            :src="baseUrl + imageSrc"
-            alt="Dark Mode"
-          />
-        </client-only>
+        <NuxtImg
+          v-if="imageSrc"
+          class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
+          :src="imageSrc"
+          alt="Dark Mode"
+          format="webp"
+        />
       </div>
       <div class="relative ml-6 lg:hidden">
         <FontAwesomeIcon
@@ -130,6 +128,7 @@
 <script setup>
 import { useTheme } from "~/composables/useTheme";
 import gsap from "gsap";
+import { NuxtImg } from "#components";
 
 const header = ref(null);
 onMounted(() => {
@@ -156,7 +155,7 @@ const scrollToSection = async (id) => {
 };
 
 const imageSrc = computed(() => {
-  return isDark.value ? "/images/light.png" : "/images/moon.svg";
+  return isDark.value ? "images/light.png" : "images/moon.svg";
 });
 </script>
 

@@ -23,6 +23,7 @@
           :src="project.image"
           :alt="project.name"
           class="min-h-[190px]"
+          format="webp"
         />
         <a
           :href="project.link || '#'"

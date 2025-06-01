@@ -13,11 +13,11 @@
             : `bg-[url('/images/background-light.png')]`
         "
       >
-        <img
-          loading="lazy"
+        <NuxtImg
           class="w-50 h-50 rounded-full object-cover"
-          src="/images/profile.png"
+          src="images/profile.png"
           alt="Me"
+          format="webp"
         />
         <h1
           class="font-bold text-2xl xl:text-5xl text-[#484E53] dark:text-white py-4"
