@@ -15,7 +15,7 @@
       >
         <NuxtImg
           class="w-50 h-50 rounded-full object-cover"
-          src="images/profile.png"
+          src="/images/profile.png"
           alt="Me"
           format="webp"
         />

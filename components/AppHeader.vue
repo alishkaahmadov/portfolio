@@ -52,9 +52,16 @@
     <div class="flex items-center">
       <div @click="toggleDark">
         <NuxtImg
-          v-if="imageSrc"
+          v-if="isDark"
           class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
-          :src="imageSrc"
+          src="/images/light.png"
+          alt="Light Mode"
+          format="webp"
+        />
+        <NuxtImg
+          v-else
+          class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
+          src="/images/moon.svg"
           alt="Dark Mode"
           format="webp"
         />
@@ -155,7 +162,7 @@ const scrollToSection = async (id) => {
 };
 
 const imageSrc = computed(() => {
-  return isDark.value ? "images/light.png" : "images/moon.svg";
+  return isDark.value ? "/images/light.png" : "/images/moon.svg";
 });
 </script>
 
