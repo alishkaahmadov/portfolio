@@ -41,6 +41,7 @@
           v-if="service.secondImage"
           :src="service.secondImage"
           alt="AI"
+          format="webp"
         />
       </div>
     </div>

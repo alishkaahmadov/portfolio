@@ -7,16 +7,27 @@
     <div
       class="relative flex flex-col justify-center items-center pt-20 xl:pt-40 rounded-full overflow-hidden"
     >
-      <NuxtImg
-        class="absolute inset-0 w-full h-full object-cover"
-        :src="
-          isDark ? '/images/background.png' : '/images/background-light.png'
-        "
-        alt="Background"
-        format="webp"
-        preload
-        priority
-      />
+      <client-only>
+        <NuxtImg
+          v-if="isDark"
+          class="absolute inset-0 w-full h-full object-cover"
+          src="/images/background.png"
+          alt="Background"
+          format="webp"
+        />
+        <NuxtImg
+          v-else
+          class="absolute inset-0 w-full h-full object-cover"
+          src="/images/background-light.png"
+          alt="Background"
+          format="webp"
+        />
+      </client-only>
+
+      <div class="hidden">
+        <NuxtImg src="/images/background.png" format="webp" />
+        <NuxtImg src="/images/background-light.png" format="webp" />
+      </div>
 
       <div class="relative z-10 flex flex-col justify-center items-center">
         <NuxtImg

@@ -51,20 +51,22 @@
     >
     <div class="flex items-center">
       <div @click="toggleDark">
-        <NuxtImg
-          v-if="isDark"
-          class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
-          src="/images/light.png"
-          alt="Light Mode"
-          format="webp"
-        />
-        <NuxtImg
-          v-else
-          class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
-          src="/images/moon.png"
-          alt="Dark Mode"
-          format="webp"
-        />
+        <client-only>
+          <NuxtImg
+            v-if="isDark"
+            class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
+            src="/images/light.png"
+            alt="Light Mode"
+            format="webp"
+          />
+          <NuxtImg
+            v-else
+            class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
+            src="/images/moon.png"
+            alt="Dark Mode"
+            format="webp"
+          />
+        </client-only>
       </div>
       <div class="hidden">
         <NuxtImg src="/images/light.png" format="webp" />
