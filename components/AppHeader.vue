@@ -66,6 +66,10 @@
           format="webp"
         />
       </div>
+      <div class="hidden">
+        <NuxtImg src="/images/light.png" format="webp" />
+        <NuxtImg src="/images/moon.svg" format="webp" />
+      </div>
       <div class="relative ml-6 lg:hidden">
         <FontAwesomeIcon
           icon="fa-solid fa-bars"
