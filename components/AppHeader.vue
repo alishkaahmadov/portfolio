@@ -61,14 +61,14 @@
         <NuxtImg
           v-else
           class="w-6 h-6 lg:w-8 lg:h-8 cursor-pointer hover:scale-125 transition"
-          src="/images/moon.svg"
+          src="/images/moon.png"
           alt="Dark Mode"
           format="webp"
         />
       </div>
       <div class="hidden">
         <NuxtImg src="/images/light.png" format="webp" />
-        <NuxtImg src="/images/moon.svg" format="webp" />
+        <NuxtImg src="/images/moon.png" format="webp" />
       </div>
       <div class="relative ml-6 lg:hidden">
         <FontAwesomeIcon
