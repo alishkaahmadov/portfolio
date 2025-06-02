@@ -24,6 +24,8 @@
           :alt="project.name"
           class="min-h-[190px]"
           format="webp"
+          width="350"
+          sizes="(max-width: 1024px) 100vw, 350px"
         />
         <a
           :href="project.link || '#'"

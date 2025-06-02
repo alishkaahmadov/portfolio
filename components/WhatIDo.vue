@@ -26,6 +26,8 @@
             :src="service.image"
             :alt="service.imageAlt"
             format="webp"
+            width="40"
+            height="40"
           />
           <h3
             class="font-semibold text-sm md:text-base mt-3 mb-4 text-[#484E53] dark:text-white"
@@ -42,6 +44,8 @@
           :src="service.secondImage"
           alt="AI"
           format="webp"
+          width="800"
+          sizes="(max-width: 768px) 250px, (max-width: 1024px) 300px, 800px"
         />
       </div>
     </div>

@@ -5,28 +5,26 @@
     ref="hero"
   >
     <div
-      class="relative flex flex-col justify-center items-center pt-20 xl:pt-40 rounded-full overflow-hidden"
+      class="relative flex flex-col justify-center items-center pt-20 xl:pt-40 overflow-hidden"
     >
       <client-only>
         <NuxtImg
           v-if="isDark"
-          class="absolute inset-0 w-full h-full object-cover"
+          class="absolute inset-0 w-full h-full object-cover rounded-full"
           src="/images/background.png"
           alt="Background"
-          format="webp"
         />
         <NuxtImg
           v-else
-          class="absolute inset-0 w-full h-full object-cover"
+          class="absolute inset-0 w-full h-full object-cover rounded-full"
           src="/images/background-light.png"
           alt="Background"
-          format="webp"
         />
       </client-only>
 
       <div class="hidden">
-        <NuxtImg src="/images/background.png" format="webp" />
-        <NuxtImg src="/images/background-light.png" format="webp" />
+        <NuxtImg src="/images/background.png" />
+        <NuxtImg src="/images/background-light.png" />
       </div>
 
       <div class="relative z-10 flex flex-col justify-center items-center">
@@ -35,6 +33,8 @@
           src="/images/profile.png"
           alt="Me"
           format="webp"
+          width="200"
+          height="200"
           preload
           priority
         />
