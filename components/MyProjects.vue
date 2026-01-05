@@ -52,35 +52,35 @@ const myProjects = [
     name: "Constcourt.gov.az",
     link: "https://constcourt.gov.az",
     description:
-      "Developed the official website for the Constitutional Court with a focus on accessibility and usability. Features include multilingual support, searchable legal decisions, and an online complaint submission system.",
+      "Designed and implemented Laravel-based backend services for the Constitutional Court’s public platform. Built secure, multilingual content management, searchable legal decision archives, and an online complaint submission system with structured data storage and validation. Focused on performance, accessibility, and security for a high-traffic government environment.",
   },
   {
     image: "images/adra.png",
     name: "Adra.gov.az",
     link: "https://adra.gov.az",
     description:
-      "Contributed to the development of the website by implementing parts of the electronic admission module and assisting with UI/UX improvements across key sections.",
+      "Contributed to backend development of the electronic admission system using Laravel. Implemented core backend logic for application workflows, data validation, and administrative processing. Worked on integrating admission-related modules with existing systems while ensuring data integrity and secure access control.",
   },
   {
     image: "images/isst.png",
     name: "Isst.az",
     link: "https://isst.az",
     description:
-      "Contributed to the development of ISST.az, a platform providing information on water supply and sanitation projects in Azerbaijan. Assisted with UI/UX design and implementation of features like online applications for water meter installations.",
+      "Developed backend features for a national infrastructure platform providing public access to water and sanitation projects. Implemented Laravel-based backend logic for online applications (e.g., water meter installation requests), data management, and administrative review workflows.",
   },
   {
     image: "images/cartrack.png",
     name: "Cartrack.az",
     link: "https://cartrack.az",
     description:
-      "Contributed to the development of CarTrack.az, a fleet management platform offering real-time GPS tracking, detailed reporting, and driver behavior monitoring. Assisted with UI/UX design and implemented features enhancing vehicle oversight and operational efficiency.",
+      "Worked on backend services for a fleet management platform supporting real-time GPS tracking, reporting, and driver behavior analysis. Implemented backend logic for data ingestion, reporting modules, and performance-optimized database queries to handle large volumes of location and telemetry data.",
   },
   {
     image: "images/scan.png",
     name: "Scan.az",
     link: "https://scan.az",
     description:
-      "Contributed to the development of Scan.az, a digital platform enabling cafes, restaurants, and businesses to create customizable QR code menus. Assisted with UI/UX design and implemented features facilitating easy menu creation and customer engagement.",
+      "Developed backend functionality for a SaaS platform enabling businesses to create and manage QR-based digital menus. Built Laravel APIs for menu management, business profiles, and customer access, focusing on scalability, clean data modeling, and ease of administration.",
   },
   {
     image: "images/paqro.png",
@@ -88,6 +88,13 @@ const myProjects = [
     link: "",
     description:
       "Built a warehouse management system for Azerbaijan’s cotton production sector. The platform tracks product inventory across branches, manages equipment transfers, logs entries and exits, and automatically generates PDF reports for each product shipment.",
+  },
+  {
+    image: "images/paqro-gps.png",
+    name: "P-Aqro GPS #",
+    link: "",
+    description:
+      "Designed and built a Laravel-based full stack system to monitor and control farmer activities using GPS data, aimed at preventing fraud and ensuring transparency in agricultural operations. Implemented backend logic to track field work, validate task completion based on location and time data, and detect inconsistencies between reported and actual activity. Built a role- and permission-based authentication system to support multiple user types (administrators, supervisors, farmers), ensuring secure access to sensitive data and operational features.",
   },
   {
     image: "images/durakOnline.png",

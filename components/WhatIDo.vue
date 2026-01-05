@@ -58,18 +58,9 @@ const baseUrl = config.app.baseURL;
 
 const services = [
   {
-    title: "Frontend Development & UI Engineering",
-    description:
-      "I craft responsive, accessible, and user-friendly interfaces using Vue.js, Nuxt.js, and Tailwind CSS. From dynamic dashboards to mobile-optimized UIs, I ensure every frontend is visually polished, performant, and easy to use—designed with real users in mind.",
-    image: "images/frontend.png",
-    imageAlt: "frontend",
-    isLarge: false,
-    secondImage: false,
-  },
-  {
     title: "Backend Development & API Design",
     description:
-      "I build secure, scalable backends using Node.js, Express, Laravel, and more. With experience in creating RESTful APIs, managing databases, and handling complex logic, I deliver backend systems that are clean, maintainable, and reliable.",
+      "I build secure, scalable backends using Laravel, Node.js, Express and more. With experience in creating RESTful APIs, managing databases, and handling complex logic, I deliver backend systems that are clean, maintainable, and reliable.",
     image: "images/backend.png",
     imageAlt: "backend",
     isLarge: false,
@@ -81,6 +72,15 @@ const services = [
       "Using MQTT, FCM, and third-party integrations, I develop real-time messaging platforms and notification systems. From unified support chat to multi-channel communication, I enable seamless interactions at scale.",
     image: "images/realtime.png",
     imageAlt: "realtime",
+    isLarge: false,
+    secondImage: false,
+  },
+  {
+    title: "Frontend Development & UI Engineering",
+    description:
+      "I craft responsive, accessible, and user-friendly interfaces using Vue.js, Nuxt.js, and Tailwind CSS. From dynamic dashboards to mobile-optimized UIs, I ensure every frontend is visually polished, performant, and easy to use—designed with real users in mind.",
+    image: "images/frontend.png",
+    imageAlt: "frontend",
     isLarge: false,
     secondImage: false,
   },

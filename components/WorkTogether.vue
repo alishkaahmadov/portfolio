@@ -7,12 +7,12 @@
       Let's <span class="hidden lg:inline"><br /></span> Work Together -
     </h1>
     <a
-      href="mailto:alishka.ahmdv@gmail.com"
+      href="mailto:alishkaahmadov99@gmail.com"
       class="flex items-center border border-[#484E53] rounded-md px-4 py-4 cursor-pointer transition hover:text-[#4FC3F7] hover:border-[#4FC3F7]"
     >
       <NuxtImg src="/images/gmail.png" class="w-6 h-6" alt="Gmail" format="webp" />
       <span class="text-sm lg:text-base ml-2 dark:text-[#C9C9C9]"
-        >alishka.ahmdv@gmail.com</span
+        >alishkaahmadov99@gmail.com</span
       >
     </a>
   </div>

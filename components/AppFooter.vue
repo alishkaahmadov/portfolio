@@ -29,7 +29,7 @@
           class="hover:text-blue-600 dark:text-[#A9A9A9] border transition p-1 rounded-full w-5 h-5 text-xl"
         />
       </a>
-      <a class="mr-4" href="mailto:alishka.ahmdv@gmail.com" aria-label="Email">
+      <a class="mr-4" href="mailto:alishkaahmadov99@gmail.com" aria-label="Email">
         <FontAwesomeIcon
           icon="fa-solid fa-envelope"
           class="hover:text-red-500 dark:text-[#A9A9A9] border transition p-1 rounded-full w-5 h-5 text-xl"

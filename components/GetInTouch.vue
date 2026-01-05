@@ -13,7 +13,7 @@
     <HighlightText label="Lets work together" />
     <form
       class="w-full xl:w-xl mx-auto xl:p-4 space-y-4 text-sm md:text-base"
-      action="https://formsubmit.co/alishka.ahmdv@gmail.com"
+      action="https://formsubmit.co/alishkaahmadov99@gmail.com"
       method="POST"
     >
       <div ref="nameField">

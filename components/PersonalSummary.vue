@@ -43,13 +43,12 @@
         >
           Ali Ahmadov
         </h1>
-        <HighlightText label="Web Developer" fontSize="text-lg xl:text-2xl" />
+        <HighlightText label="Backend Developer" fontSize="text-lg xl:text-2xl" />
         <p
           class="text-center text-[#484E53] dark:text-[#E1E1E1] text-base xl:text-lg max-w-[800px] pb-4"
         >
-          As a dedicated full stack web developer with over 5 years of
-          experience, I specialize in crafting scalable, user-focused web
-          solutions from backend architecture to dynamic frontend interfaces.
+        I design and build secure, scalable backend systems that power real-world, high-traffic applications.
+        With 6+ years of professional experience, I specialize in Laravel and PHP, creating robust APIs, complex business logic, and data-driven systems for production environments — including government platforms and real-time communication products.
         </p>
         <BaseButton
           label="Contact Me"

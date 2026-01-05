@@ -13,11 +13,7 @@
     <p
       class="text-center text-[#1C1E53] dark:text-[#E1E1E1] text-sm xl:text-base max-w-[800px] pb-4"
     >
-      Hi there! I'm a full stack web developer with over 5 years of experience
-      building secure, scalable, and user-friendly web applications. From
-      crafting clean and interactive frontends with Vue.js and Nuxt.js to
-      architecting robust backends with Laravel and Node.js, I specialize in
-      delivering complete web solutions that meet real-world needs.
+      Hi there! I’m a backend‑focused full stack developer with a strong foundation in system architecture, database design, and application security. Over the past six years, I’ve built and maintained backend services used in production by thousands of users, with a particular focus on reliability, performance, and maintainability.
     </p>
     <p
       class="text-center text-[#1C1E53] dark:text-[#E1E1E1] text-sm xl:text-base max-w-[800px] pb-4"
